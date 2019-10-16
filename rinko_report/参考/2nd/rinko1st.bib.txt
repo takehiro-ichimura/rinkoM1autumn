@@ -1,0 +1,151 @@
+﻿@book{ouchi,
+  title={Principles of Synthetic Aperture Radar for Remote Sensing},
+  author={Ouchi, Kazuo},
+  publisher={Tokyo Denki University Press}, 
+  year={2004}
+}
+@article{kim2018unsupervised,
+  title={Unsupervised Fine Land Classification Using Quaternion Autoencoder-Based Polarization Feature Extraction and Self-Organizing Mapping},
+  author={Kim, Hyunsoo and Hirose, Akira},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={56},
+  number={3},
+  pages={1839--1851},
+  year={2018},
+  publisher={IEEE}
+}
+@article{tuanase2017discovery,
+  title={Discovery of Semantic Relationships in PolSAR Images Using Latent Dirichlet Allocation},
+  author={T{\u{a}}nase, Radu and Bahmanyar, Reza and Schwarz, Gottfried and Datcu, Mihai},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  volume={14},
+  number={2},
+  pages={237--241},
+  year={2017},
+  publisher={IEEE}
+}
+@article{yamaguchi2005four,
+  title={Four-component scattering model for polarimetric SAR image decomposition},
+  author={Yamaguchi, Yoshio and Moriyama, Toshifumi and Ishido, Motoi and Yamada, Hiroyoshi},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={43},
+  number={8},
+  pages={1699--1706},
+  year={2005},
+  publisher={IEEE}
+}
+@article{freeman1998three,
+  title={A three-component scattering model for polarimetric SAR data},
+  author={Freeman, Anthony and Durden, Stephen L},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={36},
+  number={3},
+  pages={963--973},
+  year={1998},
+  publisher={IEEE}
+}
+@article{cloude1997entropy,
+  title={An entropy based classification scheme for land applications of polarimetric SAR},
+  author={Cloude, Shane R and Pottier, Eric},
+  journal={IEEE transactions on geoscience and remote sensing},
+  volume={35},
+  number={1},
+  pages={68--78},
+  year={1997},
+  publisher={IEEE}
+}
+@inproceedings{pottier2000application,
+  title={Application of the H/A/alpha polarimetric decomposition theorem for unsupervised classification of fully polarimetric SAR data based on the wishart distribution},
+  author={Pottier, Eric and Lee, J-S},
+  booktitle={SAR workshop: CEOS Committee on Earth Observation Satellites},
+  volume={450},
+  pages={335},
+  year={2000}
+}
+@article{lee1999unsupervised,
+  title={Unsupervised classification using polarimetric decomposition and the complex Wishart classifier},
+  author={Lee, Jong-Sen and Grunes, Mitchell R and Ainsworth, Thomas L and Du, Li-Jen and Schuler, Dale L and Cloude, Shane R},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={37},
+  number={5},
+  pages={2249--2258},
+  year={1999},
+  publisher={IEEE}
+}
+@article{marmanis2016deep,
+  title={Deep learning earth observation classification using ImageNet pretrained networks},
+  author={Marmanis, Dimitrios and Datcu, Mihai and Esch, Thomas and Stilla, Uwe},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  volume={13},
+  number={1},
+  pages={105--109},
+  year={2016},
+  publisher={IEEE}
+}
+@incollection{fukushima1982neocognitron,
+  title={Neocognitron: A self-organizing neural network model for a mechanism of visual pattern recognition},
+  author={Fukushima, Kunihiko and Miyake, Sei},
+  booktitle={Competition and cooperation in neural nets},
+  pages={267--285},
+  year={1982},
+  publisher={Springer}
+}
+@article{espinoza2013earth,
+  title={Earth-observation image retrieval based on content, semantics, and metadata},
+  author={Espinoza-Molina, Daniela and Datcu, Mihai},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={51},
+  number={11},
+  pages={5145--5159},
+  year={2013},
+  publisher={IEEE}
+}
+@inproceedings{bhangale2016big,
+  title={Big data processing using hpc for remote sensing disaster data},
+  author={Bhangale, Ujwala M and Kurte, Kuldeep R and Durbha, Surya S and King, Roger L and Younan, Nicolas H},
+  booktitle={Geoscience and Remote Sensing Symposium (IGARSS), 2016 IEEE International},
+  pages={5894--5897},
+  year={2016},
+  organization={IEEE}
+}
+@inproceedings{kurte2016accelerating,
+  title={Accelerating big data processing chain in image information mining using a hybrid HPC approach},
+  author={Kurte, Kuldeep R and Bhangale, Ujwala M and Durbha, Surya S and King, Roger L and Younan, Nicolas H},
+  booktitle={Geoscience and Remote Sensing Symposium (IGARSS), 2016 IEEE International},
+  pages={7597--7600},
+  year={2016},
+  organization={IEEE}
+}@book{hirose,
+  title={Complex-Valued Neural Networks},
+  author={Hirose, Akira},
+  publisher={Springer}, 
+  year={2012}
+}
+@article{ma2015remote,
+  title={Remote sensing big data computing: Challenges and opportunities},
+  author={Ma, Yan and Wu, Haiping and Wang, Lizhe and Huang, Bormin and Ranjan, Rajiv and Zomaya, Albert and Jie, Wei},
+  journal={Future Generation Computer Systems},
+  volume={51},
+  pages={47--60},
+  year={2015},
+  publisher={Elsevier}
+}
+@article{chi2016big,
+  title={Big data for remote sensing: Challenges and opportunities},
+  author={Chi, Mingmin and Plaza, Antonio and Benediktsson, J{\'o}n Atli and Sun, Zhongyi and Shen, Jinsheng and Zhu, Yangyong},
+  journal={Proceedings of the IEEE},
+  volume={104},
+  number={11},
+  pages={2207--2219},
+  year={2016},
+  publisher={IEEE}
+}
+@article{blei2003latent,
+  title={Latent dirichlet allocation},
+  author={Blei, David M and Ng, Andrew Y and Jordan, Michael I},
+  journal={Journal of machine Learning research},
+  volume={3},
+  number={Jan},
+  pages={993--1022},
+  year={2003}
+}

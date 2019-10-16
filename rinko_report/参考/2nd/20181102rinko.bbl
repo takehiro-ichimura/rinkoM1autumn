@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}
+
+\bibitem{ouchi}
+Kazuo Ouchi.
+\newblock {\em Principles of Synthetic Aperture Radar for Remote Sensing}.
+\newblock Tokyo Denki University Press, 2004.
+
+\bibitem{cloude1997entropy}
+Shane~R Cloude and Eric Pottier.
+\newblock An entropy based classification scheme for land applications of
+  polarimetric sar.
+\newblock {\em IEEE transactions on geoscience and remote sensing}, Vol.~35,
+  No.~1, pp. 68--78, 1997.
+
+\bibitem{pottier2000application}
+Eric Pottier and J-S Lee.
+\newblock Application of the h/a/alpha polarimetric decomposition theorem for
+  unsupervised classification of fully polarimetric sar data based on the
+  wishart distribution.
+\newblock In {\em SAR workshop: CEOS Committee on Earth Observation
+  Satellites}, Vol. 450, p. 335, 2000.
+
+\bibitem{lee1999unsupervised}
+Jong-Sen Lee, Mitchell~R Grunes, Thomas~L Ainsworth, Li-Jen Du, Dale~L Schuler,
+  and Shane~R Cloude.
+\newblock Unsupervised classification using polarimetric decomposition and the
+  complex wishart classifier.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, Vol.~37,
+  No.~5, pp. 2249--2258, 1999.
+
+\bibitem{freeman1998three}
+Anthony Freeman and Stephen~L Durden.
+\newblock A three-component scattering model for polarimetric sar data.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, Vol.~36,
+  No.~3, pp. 963--973, 1998.
+
+\bibitem{yamaguchi2005four}
+Yoshio Yamaguchi, Toshifumi Moriyama, Motoi Ishido, and Hiroyoshi Yamada.
+\newblock Four-component scattering model for polarimetric sar image
+  decomposition.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, Vol.~43,
+  No.~8, pp. 1699--1706, 2005.
+
+\bibitem{singh2018model}
+Gulab Singh and Yoshio Yamaguchi.
+\newblock Model-based six-component scattering matrix power decomposition.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, No.~99, pp.
+  1--18, 2018.
+
+\bibitem{shang2014quaternion}
+Fang Shang and Akira Hirose.
+\newblock Quaternion neural-network-based polsar land classification in
+  poincare-sphere-parameter space.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, Vol.~52,
+  No.~9, pp. 5693--5703, 2014.
+
+\bibitem{kinugawa2018isotropization}
+Kazutaka Kinugawa, Fang Shang, Naoto Usami, and Akira Hirose.
+\newblock Isotropization of quaternion-neural-network-based polsar adaptive
+  land classification in poincare-sphere parameter space.
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, Vol.~15, No.~8, pp.
+  1234--1238, 2018.
+
+\bibitem{oyama2018phasor}
+Kohei Oyama and Akira Hirose.
+\newblock Phasor quaternion neural networks for singular-point compensation in
+  polarimetric-interferometric synthetic aperture radar.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing}, to appear.
+
+\bibitem{kinugawa2016proposal}
+Kazutaka Kinugawa, Fang Shang, Naoto Usami, and Akira Hirose.
+\newblock Proposal of adaptive land classification using quaternion neural
+  network with isotropic activation function.
+\newblock In {\em Geoscience and Remote Sensing Symposium (IGARSS), 2016 IEEE
+  International}, pp. 7557--7560. IEEE, 2016.
+
+\bibitem{shang2013polsar}
+Fang Shang and Akira Hirose.
+\newblock Polsar land classification by using quaternion-valued neural
+  networks.
+\newblock In {\em Synthetic Aperture Radar (APSAR), 2013 Asia-Pacific
+  Conference on}, pp. 593--596. IEEE, 2013.
+
+\end{thebibliography}

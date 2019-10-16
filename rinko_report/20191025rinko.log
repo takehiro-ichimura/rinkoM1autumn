@@ -1,0 +1,518 @@
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.12.11)  16 OCT 2019 12:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**20191025rinko.tex
+(./20191025rinko.tex
+pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(c:/texlive/2018/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2018/03/11 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen118
+\jsc@mmm=\dimen119
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 466.
+LaTeX Info: Redefining \sffamily on input line 469.
+LaTeX Info: Redefining \ttfamily on input line 472.
+LaTeX Info: Redefining \textmc on input line 476.
+LaTeX Info: Redefining \textgt on input line 478.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 540.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 731.
+\fullwidth=\dimen120
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 884.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 884.
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\@abstractbox=\box42
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen121
+\@lnumwidth=\dimen122
+\bibindent=\dimen123
+(c:/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2017/02/24 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count91
+)
+(./dendentitle.sty) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen124
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks16
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks17
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldmincho=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(c:/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip47
+\subfigcapskip=\skip48
+\subfigcaptopadj=\dimen133
+\subfigbottomskip=\skip49
+\subfigcapmargin=\dimen134
+\subfiglabelskip=\skip50
+\c@subfigure=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@lotdepth=\count107
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip51
+\subfig@bottom=\skip52
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(./20191025rinko.aux)
+\openout1 = `20191025rinko.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+\dendenwidth=\skip53
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 36.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 36.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 36.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 36.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 36.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+ (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 36.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 36.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 36.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 38.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 38.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 38.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 38.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 44.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 44.
+
+
+LaTeX Warning: Citation `opt' on page 1 undefined on input line 44.
+
+
+LaTeX Warning: Citation `spin_reservoir' on page 1 undefined on input line 44.
+
+
+LaTeX Warning: Citation `Nakajima2015SciReo:_infor_proce_via_physi_soft_body' o
+n page 1 undefined on input line 44.
+
+
+LaTeX Warning: Citation `Fernando2003AL:_patter_recog_in_a_bucke' on page 1 und
+efined on input line 44.
+
+File: ./figures/esn.png Graphic file (type bmp)
+<./figures/esn.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 49.
+
+LaTeX Warning: Citation `esn' on page 1 undefined on input line 55.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+File: ./figures/phisicalrc2.png Graphic file (type bmp)
+<./figures/phisicalrc2.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 73.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 73.
+
+
+LaTeX Warning: Citation `tanaka2018recent' on page 2 undefined on input line 73
+.
+
+
+LaTeX Warning: Citation `tanaka2018recent' on page 2 undefined on input line 73
+.
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 73--73
+ []\OT1/cmr/m/n/9 fig.2 Con-cept of Phisi-cal Reser-voir Com-put- 
+ []
+
+
+LaTeX Warning: Citation `ahirose2019J_IEICE:_prosp_for_reser_compu' on page 2 u
+ndefined on input line 78.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `fig:liquidbrain' on page 2 undefined on input line 82
+.
+
+
+LaTeX Warning: Citation `Fernando2003AL:_patter_recog_in_a_bucke' on page 2 und
+efined on input line 82.
+
+
+LaTeX Warning: Reference `fig:soft' on page 2 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Nakajima2015SciReo:_infor_proce_via_physi_soft_body' o
+n page 2 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Exci
+t_in_a_Garne_film' on page 2 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_fo
+r_next_gener_machi_learn_devic' on page 2 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Exci
+t_in_a_Garne_film' on page 2 undefined on input line 86.
+
+
+LaTeX Warning: Reference `fig:basicstrct' on page 2 undefined on input line 95.
+
+
+
+LaTeX Warning: Citation `Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Exci
+t_in_a_Garne_film' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_fo
+r_next_gener_machi_learn_devic' on page 2 undefined on input line 95.
+
+
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [2]
+
+LaTeX Warning: Reference `fig:sond' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Citation `Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Exci
+t_in_a_Garne_film' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Citation `Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_fo
+r_next_gener_machi_learn_devic' on page 3 undefined on input line 98.
+
+
+LaTeX Warning: Citation `Vansteenkiste2014AIP:_the_desig_and_verif_of_MuMax' on
+ page 3 undefined on input line 109.
+
+
+LaTeX Warning: Reference `fig:sond' on page 3 undefined on input line 115.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./figures/colorbar_001.eps Graphic file (type eps)
+<./figures/colorbar_001.eps>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5760.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5760.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5761.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5761.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5762.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5762.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5763.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5763.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5764.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5764.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5766.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5766.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5767.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5767.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5768.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5768.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5769.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5769.png>
+File: ./figures/capture/sin/sinsqr128_32i_l_dif_5770.png Graphic file (type bmp
+)
+<./figures/capture/sin/sinsqr128_32i_l_dif_5770.png>
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 176.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 176.
+File: ./figures/colorbar_001.eps Graphic file (type eps)
+<./figures/colorbar_001.eps>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7060.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7060.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7061.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7061.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7062.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7062.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7063.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7063.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7064.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7064.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7066.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7066.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7067.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7067.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7068.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7068.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7069.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7069.png>
+File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7070.png Graphic file (type bmp
+)
+<./figures/capture/sqr/sinsqr128_32i_l_dif_7070.png>
+File: ./figures/capture/sin/32i_l_hil_5760.png Graphic file (type bmp)
+<./figures/capture/sin/32i_l_hil_5760.png>
+File: ./figures/capture/sqr/32i_l_hil_7060.png Graphic file (type bmp)
+<./figures/capture/sqr/32i_l_hil_7060.png>
+File: ./figures/meanweightsinsqr128_32i_l_hilsinsqr128_32i_t_hil_timesequence_e
+poch300_batchsize32_mask10_eta30_transition0.png Graphic file (type bmp)
+<./figures/meanweightsinsqr128_32i_l_hilsinsqr128_32i_t_hil_timesequence_epoch3
+00_batchsize32_mask10_eta30_transition0.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4]
+File: ./figures/pspsinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdoms
+elected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r
+.eps Graphic file (type eps)
+<./figures/pspsinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselect
+ed_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r.eps>
+
+
+
+LaTeX Warning: Reference `fig:sond' on page 5 undefined on input line 254.
+
+
+Underfull \vbox (badness 5417) has occurred while \output is active []
+
+File: ./figures/b128_e2000_eta30_nn64_r.png Graphic file (type bmp)
+<./figures/b128_e2000_eta30_nn64_r.png>
+File: ./figures/rmse_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_
+ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loo
+pnum9_r.eps Graphic file (type eps)
+<./figures/rmse_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdo
+mselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9
+_r.eps>
+File: ./figures/learning_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuro
+n64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0
+_loopnum9_r.eps Graphic file (type eps)
+<./figures/learning_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_r
+amdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loop
+num9_r.eps>
+File: ./figures/rmsevs_r2.eps Graphic file (type eps)
+<./figures/rmsevs_r2.eps>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+No file 20191025rinko.bbl.
+
+Underfull \hbox (badness 2409) in paragraph at lines 304--305
+[]\OT1/cmr/m/n/10 Takehiro Ichimura, Ryosho Nakane, Go-hei
+ []
+
+[7
+
+] (./20191025rinko.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2285 strings out of 493281
+ 31381 string characters out of 6148125
+ 101470 words of memory out of 5000000
+ 6135 multiletter control sequences out of 15000+600000
+ 21810 words of font info for 96 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 31i,10n,36p,1150b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 20191025rinko.dvi (7 pages, 37592 bytes).

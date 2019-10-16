@@ -1,0 +1,49 @@
+% 電気電子各種資料のためのタイトルマクロ
+%       ver1.0: 26 Apr 1991 by shisei
+%       usage: \makedendentitle{左上文字列}{左下文字列}
+%       \maketitle と大凡コンパチブルです。
+% こんなもののために5日位費やしてしまった。
+
+\def\makedendentitle#1#2{\par
+ \begingroup
+ \if@twocolumn                  %@twocolumnという変数?が設定されているなら、
+ \twocolumn[\@dendentitle{#1}{#2}]      %そうする。
+ \else \newpage                 %そうじゃないと、改頁して、
+ \global\@topnum\z@ \@dendentitle{#1}{#2} \fi\thispagestyle{plain}\@thanks
+ \endgroup
+ \let\makedendentitle\relax
+ \let\@dendentitle\relax
+ \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\let\thanks\relax}
+
+% タイトルの中身をいれたもの。
+\def\@dendentitle#1#2{\newpage
+ \null
+% \vskip 2em 
+ \newlength \dendenwidth
+ \dendenwidth = -2ex
+ \advance \dendenwidth by \textwidth
+ \begin{center}
+ \framebox[\textwidth]{
+   \parbox{\dendenwidth}
+     {
+%       \vskip 2ex
+       \ \ #1 \hfill \@date \ \\ 
+         \parbox{\dendenwidth}{
+           \vskip 1ex
+%           \vskip 5ex という意味になるみたい。
+           \centering {\Large \bf \@title \par} 
+%           \vskip 4ex
+         }
+       \vskip 2ex 
+% なぜかこうするとうまくいく。
+       \ \ #2 \hfill \@author \ % \fi
+%       \vskip 2ex
+     }
+ }
+ \end{center}
+% \vskip 3em
+}
+
+
+
+
