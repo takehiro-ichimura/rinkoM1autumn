@@ -27,7 +27,7 @@
 %\usepackage{apalike}
 %\bibliographystyle{apalike}
 
-\title{スピン波を用いた物理リザバーコンピューティングによる波形分類\\Waveform classification using spin-wave-based phisical reservoir computing}
+\title{スピン波を用いた物理リザバーコンピューティングによる波形分類\\Waveform classification using spin-wave-based physical reservoir computing}
 \author{廣瀬研究室 修士過程１年 37-196445 市村　剛大}
 \date{2019年10月15日}
 
@@ -85,6 +85,20 @@ $\mathbf{y}(n)$はnにおける出力ベクトル、$W^{out}$は出力層の結�
 波動利用のリザバーとして、スピン波を利用するリザバーコンピュータの概念とその構成、基礎的な検証も報告されている\cite{Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Excit_in_a_Garne_film,Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_for_next_gener_machi_learn_devic}。そこでは、方形波として時間的に変化するベースバンド信号を入力信号とした。そしてその方形波の継続時間を推定するタスクを設定し、これに成功した。このスピン波リザバーコンピューテイングデバイスは、波動現象を利用している。すなわち、ヒステリシス、非線形性、空間的な非対称性などを利用するとともに、波動としての分散特性も利用できる。この場合、ヒステリシスは入力信号と入力端との相互作用が、入力端の状態に依存していることを意味するとともに、伝搬もヒステリシスを有している。非線形性は、波の性質が波動の振幅に依存していること、たとえば干渉の際に波動が単なる重ね合わせではない値をとり、また高次周波数成分を発生することにつながる。また非対称性は、2次元または3次元的に波動が伝搬する際に異方性があることを指す。そこでは、スピン波の時空間的な特性が直接にリザバーの機能の豊かさを規定する。
 先行研究\cite{Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Excit_in_a_Garne_film}では基本的な構成、検証にとどまっており、また計算方法は、得られた振幅の値を時間方向に展開してから計算を行うため、2次元波であることによる空間的な情報を十分に利用していない。そこで
 
+\begin{figure}
+\centering
+\includegraphics[width=0.9\hsize]{./figures/deviceStructure.eps} 
+\caption{Basic structure of spin-wave reservoir computing device.(Figure reproduced under permission from IEEE.)}
+\label{fig:basicstrct}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\hsize]{./figures/selected_neuron_structure.pdf} 
+\caption{Structure of the network.}
+\label{fig:sond}
+\end{figure}
+
 \section{スピン波リザバーの構成とタスク}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section{Construction of the spin-wave reservoir}
 \label{sec:constandtask}
@@ -92,7 +106,7 @@ $\mathbf{y}(n)$はnにおける出力ベクトル、$W^{out}$は出力層の結�
 \subsection{物理的な構成}
 \label{subsec:const}
 
-図\ref{fig:basicstrct}は素子の基本構造の概念図である。物理的な詳細は、文献を参照してほしい\cite{Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Excit_in_a_Garne_film,Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_for_next_gener_machi_learn_devic}。簡単には、入力電極に電圧を加えることにより、ME結合層で生じるME結合によって、ガーネットフィルムのスピンに波動を誘起することができる。その波動はフィルム内を伝搬する。その際、波動は異方性を伴いながら伝搬したり、非線形性を伴いながら干渉したりする。また入力電極やフィルムでの波動伝搬は、新たな信号に対しヒステリシスを持つ。このような特性から、スピン波自体が時系列入力信号を複雑な時系列信号に変換する。これがスピン波リザバーの効果的な動作である。このような複雑なスピン波動を入力と同様に出力電極でME結合によってピックアップし、出力信号を得る。
+図\ref{fig:basicstrct}は素子の基本構造の概念図である。物理的な詳細は、先行研究と同様のものを用いた\cite{Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Excit_in_a_Garne_film,Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_for_next_gener_machi_learn_devic}。簡単には、入力電極に電圧を加えることにより、ME結合層で生じるME結合によって、ガーネットフィルムのスピンに波動を誘起することができる。その波動はフィルム内を伝搬する。その際、波動は異方性を伴いながら伝搬したり、非線形性を伴いながら干渉したりする。また入力電極やフィルムでの波動伝搬は、新たな信号に対しヒステリシスを持つ。このような特性から、スピン波自体が時系列入力信号を複雑な時系列信号に変換する。これがスピン波リザバーの効果的な動作である。このような複雑なスピン波動を入力と同様に出力電極でME結合によってピックアップし、出力信号を得る。
 %Fig.~\ref{fig:structure} is a conceptual illustration showing the basic construction of the garnet-film spin reservoir. Physical details are given in literature~\cite{Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Excit_in_a_Garne_film,Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_for_next_gener_machi_learn_devic}. The dynamics is explained simply as follows. Input voltage at terminals triggers spin waves in the garnet film. The spin wave propagates, interferes and bounces at the edges with nonlinearity, anisotropy and hysteresis. These phenomena transform the time-sequential input signals into complicated spatiotemporal signals, which works effectively as a reservoir. 
 
 図\ref{fig:sond}に本論文での解析のためのフィルムの大きさと2つの入力電極を示す。ここで、2つの入力端子を設置するのはスピン波の非線形な干渉を利用するためである。干渉を利用する場合としない場合の性能の評価は先行研究でなされている\cite{Nakane2018IEEEAccess:_Reser_Compu_with_spin_waves_Excit_in_a_Garne_film,Nakane2018ICM:_demon_of_spin_wave_based_reser_compu_for_next_gener_machi_learn_devic}。
@@ -256,21 +270,21 @@ x(\bm{r}, n)
 \begin{figure*}
 \centering
 \includegraphics[width=1\hsize]{./figures/b128_e2000_eta30_nn64_r} 
-\caption{学習後の分類結果。(出力電極数が64個の場合、2000エポック)}
+\caption{Resulting neural output after learning (64~output electrodes, 2000~epoch).}
 \label{fig:result64}
 \end{figure*}
 
 \begin{figure}
 \centering
 \includegraphics[width=1\hsize]{./figures/rmse_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r} 
-\caption{エポック数に対するRMSEの変化。(出力電極数が64個の場合).}
+\caption{RMSE against epoch (64~output electrodes, 2000~epoch).}
 \label{fig:lc64}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[width=1\hsize]{./figures/learning_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r} 
-\caption{エポック数に対する波形分類の正解数の変化。(出力電極数が64個の場合、切り替えでのエラーも含む)}
+\caption{Correct number of the classification (64~output electrodes, including errors caused by switching of the input signals).}
 \label{fig:nc64}
 \end{figure}
 
@@ -280,13 +294,13 @@ x(\bm{r}, n)
 \centering
 %\includegraphics[width=1\hsize]{./figures/loop_rmse.eps} 
 \includegraphics[width=1\hsize]{./figures/rmsevs_r2} 
-\caption{出力ニューロンの個数を変化させたときのRMSEの変化.}
+\caption{RMSE when the number of output electrodes are changed.}
 \label{fig:rmsevs}
 \end{figure}
 
 8、16、32、64個のランダムに選択した電極を利用して学習を行った場合の、出力と教師信号のRMSEを示したのが図\ref{fig:rmsevs}である。ランダムに選択した場合のRMSEや正解数はばらつきが大きいためそれぞれ10回づつ学習を行い、それらの分散をエラーバーに示した。図\ref{fig:rmsevs}から電極数が多いほど学習が早くなっていることがわかる。これは図\ref{fig:weightsinsqr128_32i}における有用情報が得られる場所に電極が配置される確率が高まるからだと考えられる。実行するタスクがある程度決まったものであれば、図\ref{fig:weightsinsqr128_32i}を利用して有用情報が多く得られる場所に出力電極を配置することで、性能が高いデバイスを作成できる可能性がある。ただしその場合、未知の入力への汎化能力が低下すると考えられるので、配置場所にはある程度のランダム性はあったほうが望ましいと考えられる。
 
-\section{結論}
+\section{結論と今後の方針}
 \label{sec:conclusion}
 今回、まず正弦波矩形波の波形分類タスクについてスピン波の伝搬や振幅の分布を観察し、リザバーコンピューティングに必要とされるような複雑な応答が得られたことを確認した。
 次に、仮想的に全メッシュにくまなく出力電極を配置し学習を行い、荷重分布から得られる有用情報分布を確認することで、理想的な出力電極の大きさが数十~nmであることを確認した。
@@ -309,6 +323,7 @@ x(\bm{r}, n)
 \begin{enumerate}
 \item 市村剛大、中根了昌、田中剛平、廣瀬明、「スピン波リザバーコンピューティングにおける有用情報の空間分布」、ニューロコンピューティング研究会（NC）、東京、2019年3月
 \item 市村剛大、中根了昌、田中剛平、廣瀬明、「スピン波を用いたリザバーコンピューティングデバイスにおける荷重の空間分布」、CS-2-8、電子情報通信学会総合大会、東京、2019年3月
+\item 市村剛大、中根了昌、田中剛平、廣瀬明、「スピン波リザバーコンピューティングチップにおける実空間情報分布」、P1-30、日本神経回路学会全国大会（JNNS）、東京、2019年9月
 \end{enumerate}
 
 \end{document}
