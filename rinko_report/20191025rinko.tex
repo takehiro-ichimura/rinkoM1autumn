@@ -234,8 +234,9 @@ x(\bm{r}, n)
 
 \begin{figure}
 \centering
-\includegraphics[width=1\hsize]{./figures/meanweightsinsqr128_32i_l_hilsinsqr128_32i_t_hil_timesequence_epoch300_batchsize32_mask10_eta30_transition0} 
-\caption{荷重分布(300エポックのとき)}
+\includegraphics[width=1\hsize]{./figures/meanweightsinsqr128_32i_l_hilsinsqr128_32i_t_hil_timesequence_epoch300_batchsize32_mask10_eta30_transition0.eps} 
+%\caption{荷重分布(300エポックのとき)}
+\caption{Distribution of synaptic weights at 300~epoch learning. (1~pixel=$10\times10 \rm{nm^2}$)}
 \label{fig:weightsinsqr128_32i}
 \end{figure}
 
@@ -243,8 +244,9 @@ x(\bm{r}, n)
 
 \begin{figure}
 \centering
-\includegraphics[width=1\hsize]{./figures/pspsinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r} 
-\caption{ランダムに選択された出力電極の場所の例(出力電極数が64個の場合).}
+\includegraphics[width=1\hsize]{./figures/psp_dotplotnn64_eta30_bs128_epoch2000_20190605l_using_neurons} 
+%\caption{ランダムに選択された出力電極の場所の例(出力電極数が64個の場合).}
+\caption{An example of randomly selected output electrodes when the number of electrodes is 64. (1~pixel=$10\times10 \rm{nm^2}$)}
 \label{fig:random}
 \end{figure}
 
@@ -255,22 +257,25 @@ x(\bm{r}, n)
 
 \begin{figure*}
 \centering
-\includegraphics[width=1\hsize]{./figures/b128_e2000_eta30_nn64_r} 
-\caption{学習後の分類結果。(出力電極数が64個の場合、2000エポック)}
+\includegraphics[width=1\hsize]{./figures/b128_e2000_eta30_nn64_r2.png} 
+%\caption{学習後の分類結果。(出力電極数が64個の場合、2000エポック)}
+\caption{Resulting neural output after learning (64~output electrodes, 2000~epoch).}
 \label{fig:result64}
 \end{figure*}
 
 \begin{figure}
 \centering
 \includegraphics[width=1\hsize]{./figures/rmse_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r} 
-\caption{エポック数に対するRMSEの変化。(出力電極数が64個の場合).}
+%\caption{エポック数に対するRMSEの変化。(出力電極数が64個の場合).}
+\caption{RMSE against epoch (64~output electrodes, 2000~epoch).}
 \label{fig:lc64}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=1\hsize]{./figures/learning_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r} 
-\caption{エポック数に対する波形分類の正解数の変化。(出力電極数が64個の場合、切り替えでのエラーも含む)}
+\includegraphics[width=1\hsize]{./figures/learning_curvesinsqr128_32i_l_hilsinsqr128_32i_l2_hil_num_neuron64_ramdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loopnum9_r2} 
+%\caption{エポック数に対する波形分類の正解数の変化。(出力電極数が64個の場合、切り替えでのエラーも含む)}
+\caption{Correct number of the classification (64~output electrodes, including errors caused by switching of the input signals).}
 \label{fig:nc64}
 \end{figure}
 
@@ -279,8 +284,9 @@ x(\bm{r}, n)
 \begin{figure}
 \centering
 %\includegraphics[width=1\hsize]{./figures/loop_rmse.eps} 
-\includegraphics[width=1\hsize]{./figures/rmsevs_r2} 
-\caption{出力ニューロンの個数を変化させたときのRMSEの変化.}
+\includegraphics[width=1\hsize]{./figures/remsevs_r2.eps} 
+%\caption{出力ニューロンの個数を変化させたときのRMSEの変化.}
+\caption{RMSE when the number of output electrodes are changed.}
 \label{fig:rmsevs}
 \end{figure}
 
