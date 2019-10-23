@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.12.11)  22 OCT 2019 20:03
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.12.11)  22 OCT 2019 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -238,33 +238,17 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 38.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 44.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 44.
 
-
-LaTeX Warning: Citation `opt' on page 1 undefined on input line 44.
-
-
-LaTeX Warning: Citation `spin_reservoir' on page 1 undefined on input line 44.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figures/esn.png Graphic file (type bmp)
 <./figures/esn.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 49.
+(Font)              scaled to size 8.64899pt on input line 51.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 49.
-
-LaTeX Warning: Citation `esn' on page 1 undefined on input line 55.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              scaled to size 8.64899pt on input line 51.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 56.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -272,43 +256,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./figures/phisicalrc2.png Graphic file (type bmp)
 <./figures/phisicalrc2.png>
 
-Underfull \hbox (badness 1033) in paragraph at lines 73--73
+Underfull \hbox (badness 1033) in paragraph at lines 75--75
  []\OT1/cmr/m/n/9 fig.2 Con-cept of Phisi-cal Reser-voir Com-put- 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `fig:liquidbrain' on page 2 undefined on input line 82
-.
-
-
-LaTeX Warning: Reference `fig:soft' on page 2 undefined on input line 82.
-
-
-LaTeX Warning: Reference `fig:basicstrct' on page 2 undefined on input line 95.
-
-
-
-Underfull \vbox (badness 1533) has occurred while \output is active []
-
  [2]
-
-LaTeX Warning: Reference `fig:sond' on page 3 undefined on input line 98.
-
-
-LaTeX Warning: Reference `fig:sond' on page 3 undefined on input line 115.
-
+File: ./figures/deviceStructure.eps Graphic file (type eps)
+<./figures/deviceStructure.eps>
+File: ./figures/selected_neuron_structure.pdf Graphic file (type pdf)
+<./figures/selected_neuron_structure.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: ./figures/colorbar_001.eps Graphic file (type eps)
-<./figures/colorbar_001.eps>
+
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 5939) has occurred while \output is active []
+
+File: ./figures/colorbar_001.png Graphic file (type bmp)
+<./figures/colorbar_001.png>
 File: ./figures/capture/sin/sinsqr128_32i_l_dif_5760.png Graphic file (type bmp
 )
 <./figures/capture/sin/sinsqr128_32i_l_dif_5760.png>
@@ -340,13 +315,18 @@ File: ./figures/capture/sin/sinsqr128_32i_l_dif_5770.png Graphic file (type bmp
 )
 <./figures/capture/sin/sinsqr128_32i_l_dif_5770.png>
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 176.
+(Font)              scaled to size 5.76599pt on input line 193.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 176.
+(Font)              scaled to size 8.64899pt on input line 193.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 176.
-File: ./figures/colorbar_001.eps Graphic file (type eps)
-<./figures/colorbar_001.eps>
+(Font)              scaled to size 5.76599pt on input line 193.
+
+Underfull \hbox (badness 1038) in paragraph at lines 193--193
+ \OT1/cmr/m/n/9 si-nu-soidal wave to the two in-put elec-trodes. 
+ []
+
+File: ./figures/colorbar_001.png Graphic file (type bmp)
+<./figures/colorbar_001.png>
 File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7060.png Graphic file (type bmp
 )
 <./figures/capture/sqr/sinsqr128_32i_l_dif_7060.png>
@@ -377,6 +357,13 @@ File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7069.png Graphic file (type bmp
 File: ./figures/capture/sqr/sinsqr128_32i_l_dif_7070.png Graphic file (type bmp
 )
 <./figures/capture/sqr/sinsqr128_32i_l_dif_7070.png>
+
+Underfull \hbox (badness 4779) in paragraph at lines 224--224
+ \OT1/cmr/m/n/9 square wave to the two in-put elec-trodes. 
+ []
+
+File: ./figures/colorbar_002.png Graphic file (type bmp)
+<./figures/colorbar_002.png>
 File: ./figures/capture/sin/32i_l_hil_5760.png Graphic file (type bmp)
 <./figures/capture/sin/32i_l_hil_5760.png>
 File: ./figures/capture/sqr/32i_l_hil_7060.png Graphic file (type bmp)
@@ -386,21 +373,20 @@ poch300_batchsize32_mask10_eta30_transition0.eps Graphic file (type eps)
 <./figures/meanweightsinsqr128_32i_l_hilsinsqr128_32i_t_hil_timesequence_epoch3
 00_batchsize32_mask10_eta30_transition0.eps>
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
- []\OT1/cmr/m/n/9 fig.6 Dis-tri-bu-tion of synap-tic weights at 
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+ []\OT1/cmr/m/n/9 fig.8 Dis-tri-bu-tion of synap-tic weights at 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-[4]
+ [4]
+[5]
 File: ./figures/psp_dotplotnn64_eta30_bs128_epoch2000_20190605l_using_neurons.p
 ng Graphic file (type bmp)
 <./figures/psp_dotplotnn64_eta30_bs128_epoch2000_20190605l_using_neurons.png>
 
-
-LaTeX Warning: Reference `fig:sond' on page 5 undefined on input line 256.
+Underfull \vbox (badness 1360) has occurred while \output is active []
 
 File: ./figures/b128_e2000_eta30_nn64_r2.png Graphic file (type bmp)
 <./figures/b128_e2000_eta30_nn64_r2.png>
@@ -417,66 +403,101 @@ _loopnum9_r2.eps Graphic file (type eps)
 amdomselected_timesequence_epoch2000_batchsize128_mask10_eta30_transition0_loop
 num9_r2.eps>
 
-Underfull \hbox (badness 4967) in paragraph at lines 278--278
- []\OT1/cmr/m/n/9 fig.10 Cor-rect num-ber of the clas-si-fi-ca-tion 
+Underfull \hbox (badness 4967) in paragraph at lines 298--298
+ []\OT1/cmr/m/n/9 fig.12 Cor-rect num-ber of the clas-si-fi-ca-tion 
  []
 
 File: ./figures/remsevs_r2.eps Graphic file (type eps)
 <./figures/remsevs_r2.eps>
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 4556) has occurred while \output is active []
-
- [5]
-[6] (./20191025rinko.bbl
+ [7]
+(./20191025rinko.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 26.
+(Font)              scaled to size 9.60999pt on input line 27.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 26.
+(Font)              scaled to size 9.60999pt on input line 27.
 
-Underfull \hbox (badness 7256) in paragraph at lines 33--36
+Underfull \hbox (badness 2884) in paragraph at lines 25--29
+[]\OT1/cmr/m/n/10 H. Jaeger, ``The  \JY1/mc/m/n/10 “\OT1/cmr/m/n/10 echo state
+\JY1/mc/m/n/10 ”  \OT1/cmr/m/n/10 ap-proach
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 25--29
+\OT1/cmr/m/n/10 to analysing and train-ing re-cur-rent neu-ral
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 31--34
 []\OT1/cmr/m/n/10 G. Tanaka, T. Ya-mane, J. B. H^^Seroux,
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 49--52
-\OT1/cmr/m/n/10 voir com-put-ing for next-generation machine-
+Overfull \hbox (27.9413pt too wide) in paragraph at lines 48--54
+\OT1/cmr/m/n/10 https://link.aps.org/doi/10.1103/PhysRevX.7.011015 
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 54--57
+Overfull \hbox (100.13576pt too wide) in paragraph at lines 57--63
+\OT1/cmr/m/n/10 http://www.sciencedirect.com/science/article/pii/S0141933116300
+060 
+ []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 65--67
+\OT1/cmr/m/n/10 ``In-for-ma-tion pro-cess-ing via phys-i-cal soft
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 83--86
 []\OT1/cmr/m/n/10 A. Vansteenkiste, J. Leli-aert, M. Dvornik,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 \OT1/cmr/m/n/10 M. Helsen, F. Gracia-Sanchez, and
  []
 
+
+Underfull \hbox (badness 6910) in paragraph at lines 83--86
+\OT1/cmr/m/n/10 B. Van Waeyen-berge, ``The de-sign and
+ []
+
 )
-Underfull \hbox (badness 2409) in paragraph at lines 310--311
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 330.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 330.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 330.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 330.
+
+Underfull \hbox (badness 2409) in paragraph at lines 332--333
 []\OT1/cmr/m/n/10 Takehiro Ichimura, Ryosho Nakane, Go-hei
  []
 
+[8] (./20191025rinko.aux)
 
-Underfull \vbox (badness 1533) has occurred while \output is active []
-
- [7]
-(./20191025rinko.aux)
-
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2297 strings out of 493281
- 31337 string characters out of 6148125
- 101470 words of memory out of 5000000
- 6144 multiletter control sequences out of 15000+600000
+ 2306 strings out of 493281
+ 31616 string characters out of 6148125
+ 102471 words of memory out of 5000000
+ 6150 multiletter control sequences out of 15000+600000
  21967 words of font info for 96 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 31i,10n,36p,1150b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,10n,36p,1202b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 20191025rinko.dvi (7 pages, 39432 bytes).
+Output written on 20191025rinko.dvi (8 pages, 47676 bytes).
