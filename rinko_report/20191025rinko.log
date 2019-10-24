@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.12.11)  23 OCT 2019 18:31
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.12.11)  24 OCT 2019 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,28 +472,14 @@ Underfull \hbox (badness 6910) in paragraph at lines 83--86
 \OT1/cmr/m/n/10 B. Van Waeyen-berge, ``The de-sign and
  []
 
-)
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 330.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 330.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 330.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 330.
-
-Underfull \hbox (badness 2409) in paragraph at lines 332--333
-[]\OT1/cmr/m/n/10 Takehiro Ichimura, Ryosho Nakane, Go-hei
- []
-
-[8] (./20191025rinko.aux) ) 
+) [8] (./20191025rinko.aux) ) 
 Here is how much of TeX's memory you used:
- 2306 strings out of 493281
- 31616 string characters out of 6148125
+ 2304 strings out of 493281
+ 31588 string characters out of 6148125
  102471 words of memory out of 5000000
- 6150 multiletter control sequences out of 15000+600000
+ 6148 multiletter control sequences out of 15000+600000
  21967 words of font info for 96 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  31i,10n,36p,1202b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 20191025rinko.dvi (8 pages, 47852 bytes).
+Output written on 20191025rinko.dvi (8 pages, 46260 bytes).
